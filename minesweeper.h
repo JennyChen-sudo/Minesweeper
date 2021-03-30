@@ -7,7 +7,7 @@ struct cell {
     struct cell * adjacent[MAX_ADJACENT];
     int coords[MAX_DIM];
     int hint;
-};
+}; // cell 
 
 void init_game(struct cell * game, int dim, int * dim_sizes, int num_mines, int ** mined_cells);
 
