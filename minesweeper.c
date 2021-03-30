@@ -3,7 +3,7 @@
 #include <string.h>
 #include "minesweeper.h"
 
-
+// Implement my N-dimensional minesweeper
 int TOTAL_CELL_NUM = 1;
 int SELECT_NUM = 0;
 int TOTAL_NON_MINE_CELL_NUM = -1;
@@ -25,6 +25,7 @@ int n_dim_to_one_dim(int dim, int *dim_sizes, int *coords){
     }
     return ret;
 }
+
 
 //convert 1-D to N-D coordinate
 void one_dim_to_n_dim(int index, int dim, int *dim_sizes, int *coords){
